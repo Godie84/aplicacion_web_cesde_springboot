@@ -21,6 +21,9 @@ Esta es una API REST desarrollada con **Spring Boot**, para gestionar cursos y d
 - Actualizar docente
 - Eliminar docente
 
+
+### Diagrama entidad relación
+![Diagrama ER](images/Diagrama_entidad_relacion.png)
 ---
 
 ## Tecnologías
@@ -120,7 +123,8 @@ http://localhost:8080/swagger-ui/index.html
 ```
 
 
-Para ejecutar el proyecto, asegúrate de tener MySQL en ejecución y la base de datos configurada correctamente. Luego, ejecuta los comandos Maven proporcionados para iniciar la aplicación Spring Boot.
+Para ejecutar el proyecto, asegúrate de tener MySQL en ejecución y la base de datos configurada correctamente. 
+Luego, ejecuta los comandos Maven proporcionados para iniciar la aplicación Spring Boot.
 
 ```bach
 mvn clean install

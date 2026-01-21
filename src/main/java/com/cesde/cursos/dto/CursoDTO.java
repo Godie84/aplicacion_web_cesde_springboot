@@ -41,4 +41,7 @@ public class CursoDTO {
     @Schema(description = "Id del docente que dicta el curso", example = "1")
     @NotNull(message = "El docente es obligatorio")
     private Long docenteId;
+
+    private String docenteNombre; // para mostrar en tabla
+
 }
