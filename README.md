@@ -70,3 +70,10 @@ Desde la terminal:
 mvn clean install
 mvn spring-boot:run
 ```
+
+Documentación Swagger (OpenAPI)
+
+Swagger UI está disponible en:
+```bash
+http://localhost:8080/swagger-ui/index.html
+```
